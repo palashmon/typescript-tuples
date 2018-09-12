@@ -1,0 +1,25 @@
+{
+  "name": "typescript-tuples",
+  "version": "1.0.0",
+  "description": "Learning how TypeScript 3.0 improves tuples type and introduces a new 'unknown' top type",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon --watch \"src/**/*.ts\" --exec \"ts-node\" src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palashmon/typescript-tuples.git"
+  },
+  "keywords": [],
+  "author": "Palash Mondal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/palashmon/typescript-tuples/issues"
+  },
+  "homepage": "https://github.com/palashmon/typescript-tuples#readme",
+  "devDependencies": {
+    "nodemon": "1.18.4",
+    "ts-node": "7.0.1",
+    "typescript": "3.0.3"
+  }
+}
